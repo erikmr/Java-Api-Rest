@@ -2,7 +2,7 @@
 Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instructor's courses.
 The proyect use H2 it is a DB in memory 
 
-#To build : gradle bootrun
+
 
 #Verbs HTTP
 ## GET /instructors 
@@ -21,3 +21,6 @@ List to Instructors in JSON format
 }
 ###Reponse
 201 Created
+
+#Comands
+To build : gradle bootrun
