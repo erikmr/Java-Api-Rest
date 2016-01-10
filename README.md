@@ -2,7 +2,7 @@
 Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instructor's courses.
 
 
-#VERBS HTTP
+#Verbs HTTP
 ## GET
 ### /instructors : Get List Intructors
 ### /
