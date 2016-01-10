@@ -3,6 +3,16 @@ Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instru
 The Data Base is H2
 
 #Verbs HTTP
+##GET /instructors/{username}
+Get json from instructor to search
+###Request
+none
+###Response
+{
+"courses": [],
+"id": 1,
+"username": "emartinez"
+}
 ##GET /instructors 
 Get List Intructors
 ###Request
