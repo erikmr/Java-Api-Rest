@@ -6,20 +6,20 @@ The proyect use H2 it is a DB in memory
 
 #Verbs HTTP
 ## GET /instructors 
-### Get List Intructors
-###Request
+Get List Intructors
+##Request
 none
-###Response
+##Response
 List to Instructors in JSON format
 
 ## POST /instructors
-###Insert new instructor
-###Request
+Insert new instructor
+##Request
 {
 "username":"emartinez",
 "password":"123"
 }
-###Reponse
+##Reponse
 201 Created
 
 #Comands
