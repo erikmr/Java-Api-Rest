@@ -1,6 +1,6 @@
 # Java-Api-Rest
 Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instructor's courses.
-The proyect use H2 it is a DB in memory 
+The Data Base is H2
 
 #Verbs HTTP
 ##GET /instructors 
