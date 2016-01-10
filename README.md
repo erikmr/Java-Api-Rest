@@ -1,14 +1,19 @@
 # Java-Api-Rest
 Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instructor's courses.
+The proyect use H2 it is a DB in memory 
 
 #To build : gradle bootrun
 
 #Verbs HTTP
-## GET
-### /instructors : Get List Intructors
-### /
-## POST
-### /instructors : Insert new instructor
+## GET /instructors 
+### Get List Intructors
+###Request
+none
+###Response
+List to Instructors in JSON format
+
+## POST /instructors
+###Insert new instructor
 ###Request
 {
 "username":"emartinez",
