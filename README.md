@@ -2,24 +2,22 @@
 Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instructor's courses.
 The proyect use H2 it is a DB in memory 
 
-
-
 #Verbs HTTP
-## GET /instructors 
+##GET /instructors 
 Get List Intructors
-##Request
+###Request
 none
-##Response
+###Response
 List to Instructors in JSON format
 
-## POST /instructors
+##POST /instructors
 Insert new instructor
-##Request
+###Request
 {
 "username":"emartinez",
 "password":"123"
 }
-##Reponse
+###Reponse
 201 Created
 
 #Comands
