@@ -2,6 +2,7 @@ package platzi.rest;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
@@ -38,6 +39,12 @@ public class PlatziCoursesRestController {
 		return instructorRepository.findAll();
 		
 	}
+	@RequestMapping(value = "/{userId}", method = RequestMethod.GET)
+	Instructor   readInstructor(@PathVariable String userId) {
+		System.out.println("Obtener Instructor");
+		this.validateUser(userId);
+		return this.instructorRepository.findByUsername(userId).get();
+	}	
 	
 	@RequestMapping(method = RequestMethod.POST)
 	ResponseEntity<?> addUser(@RequestBody Instructor instructor) {

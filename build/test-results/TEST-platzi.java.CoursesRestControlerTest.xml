@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="platzi.java.CoursesRestControlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-01-03T20:08:39" hostname="mac-v8.local" time="0.114">
+<testsuite name="platzi.java.CoursesRestControlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-01-11T03:54:06" hostname="mac-v8.local" time="0.063">
   <properties/>
-  <testcase name="testReadCourse" classname="platzi.java.CoursesRestControlerTest" time="0.114"/>
+  <testcase name="testReadCourse" classname="platzi.java.CoursesRestControlerTest" time="0.063"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
