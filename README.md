@@ -18,7 +18,18 @@ Get List Intructors
 ###Request
 none
 ###Response
-List to Instructors in JSON format
+List to Instructors in JSON's format
+
+##GET /{username}/courses
+Get list a courses from Instructor
+
+###Request
+None
+
+###Response
+List of courses in JSON's format
+[{"id": 1,"description": "Risk Managment"}]
+
 
 ##POST /instructors
 Insert new instructor
@@ -28,6 +39,18 @@ Insert new instructor
 "password":"123"
 }
 ###Reponse
+201 Created
+
+##POST /{username}/courses
+Create new course from Instructor
+
+###Request
+{
+"instructor":"emartinez",
+"description":"Risk Managment"
+}
+
+###Response
 201 Created
 
 #Comands
