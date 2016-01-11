@@ -1,7 +1,7 @@
 Java-Api-Rest
 ===========
 
-    Simple Java's API Rest for Instructor's data and Instructor's courses. Whith Java 8, Hibernate, Sprint, and H2
+    Simple Java's API Rest for Instructor's data and Instructor's courses. Built with Java 8, Hibernate, Sprint, and H2
 
 
 ##Verbs HTTP
