@@ -1,34 +1,52 @@
-#-Java-Api-Rest
+Java-Api-Rest
+===========
 
-Java's API Rest use Sprint / Hibernate. Simple list Instructor's data and Instructor's courses.
-The Data Base is H2
+    Simple Java's API Rest for Instructor's data and Instructor's courses. Whith Java 8, Hibernate, Sprint, and H2
 
-#Verbs HTTP
-##GET /instructors/{username}
-Get json from instructor to search
-###Request
-none
-###Response
-{
-"courses": [],
+
+##Verbs HTTP
+----------
+
+
+###GET /instructors/{username}
+
+*Get Instructor in JSON's format.*
+
+
+####Request
+
+None
+
+####Response
+`{
+"courses": [{"id": 1,"description": "Risk Managment"}],
 "id": 1,
 "username": "emartinez"
-}
-##GET /instructors 
-Get List Intructors
-###Request
-none
-###Response
-List to Instructors in JSON's format
+}`
 
-##GET /{username}/courses
+###GET /instructors 
+
+*Get Instructor's list*
+
+####Request
+none
+####Response
+`[{
+"courses": [{"id": 1,"description": "Risk Managment"}],
+"id": 1,
+"username": "emartinez"
+}]`
+
+###GET /{username}/courses
 Get list a courses from Instructor
 
 ###Request
 None
 
 ###Response
-List of courses in JSON's format  [{"id": 1,"description": "Risk Managment"}]
+Courses list in JSON's format  
+
+`[{"id": 1,"description": "Risk Managment"}]`
 
 
 ##POST /instructors
@@ -38,11 +56,11 @@ Insert new instructor
 "username":"emartinez",
 "password":"123"
 }
-###Reponse
+###Response
 201 Created
 
 ##POST /{username}/courses
-Create new course from Instructor
+Create new course for Instructor
 
 ###Request
 {
@@ -55,3 +73,7 @@ Create new course from Instructor
 
 #Comands
 To build : gradle bootrun
+
+
+>  Based on the demo writen by  [Oscar Bernal](https://github.com/obernal) for  [PlatziJava](https://github.com/platzi/platziJava). 
+> MarkDown written with [StackEdit](https://stackedit.io/).
