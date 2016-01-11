@@ -5,7 +5,7 @@ Java-Api-Rest
 
 
 ##Verbs HTTP
-----------
+
 
 
 ###GET /instructors/{username}
@@ -71,9 +71,20 @@ Create new course for Instructor
 ###Response
 201 Created
 
-#Comands
-To build : gradle bootrun
+##Comands
+**To build** : gradle bootrun
+**To publish** : gradle clean build
 
+
+publish file war from build/libs/
+
+
+#Demo
+
+Publish in Elastic Beanstalk from AWS (Amazon)   [http://javademo.erikmartinez.mx](http://javademo.erikmartinez.mx)
+
+----------
 
 >  Based on the demo writen by  [Oscar Bernal](https://github.com/obernal) for  [PlatziJava](https://github.com/platzi/platziJava). 
+
 > MarkDown written with [StackEdit](https://stackedit.io/).
