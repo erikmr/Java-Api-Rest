@@ -27,8 +27,7 @@ Get list a courses from Instructor
 None
 
 ###Response
-List of courses in JSON's format
-[{"id": 1,"description": "Risk Managment"}]
+List of courses in JSON's format  [{"id": 1,"description": "Risk Managment"}]
 
 
 ##POST /instructors
